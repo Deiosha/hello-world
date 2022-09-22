@@ -24,7 +24,22 @@
     <img src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     alt="Placeholder image"/>
     <h2>text for this section</h2>
-   </main>
-     
-  
-  </nav>
+   </main> 
+   <input type="text" placeholder="Do you like soccer? " id="myInput"/>
+    <button type="button" onclick="getInputValue();">Get Value </button>
+   <script  >
+    function getInputValue(){
+    // Selecting the input element and get its value 
+    var inputVal = document.getElementById("myInput").value;
+    if (inputVal = "yes") {
+      // Displaying the value
+      alert(inputVal);
+    }
+    // Displaying the value
+    else {
+      alert ("you don't like soccer")
+    }
+}
+   </script>
+   </body>
+</html>
