@@ -21,7 +21,7 @@ function guessANumber() {
         }
     }
 }
-
+guessANumber();
 let rating = prompt("How would you rate my page? 1-5");
 for (let i = 0; (i<rating && i<5); i++){
    console.log(i);
