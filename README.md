@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <head> 
+  <head>
    <tittle>My Favorite Hobby</tittle>
-<link href="styles.css" type="text/css" rel="stylesheet"> 
+<link href="styles.css" type="text/css" rel="stylesheet">
+<script src="app.js"></script>
   </head>
-  <body style="background-color:white"> 
+  <body style="background-color:white">
     <header>
         <h1>Soccer</h1>
       <nav>
@@ -26,10 +27,10 @@
     <img src="https://storage.googleapis.com/proudcity/mebanenc/uploads/2021/03/placeholder-image.png"
     alt="Placeholder image"/>
     <h2>text for this section</h2>
-   </main> 
+   </main>
    <script  >
     function getInputValue(){
-    // Selecting the input element and get its value 
+    // Selecting the input element and get its value
     var inputVal = document.getElementById("myInput").value;
     if (inputVal = "yes") {
       // Displaying the value
