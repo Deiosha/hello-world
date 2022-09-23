@@ -21,3 +21,13 @@ function guessANumber() {
         }
     }
 }
+
+function greetUser() {
+    usersName = prompt("What is your name?"); // reassing value of global function
+    if (usersName == ""){                     // check if user didn't type anything
+      usersName = prompt("Please enter your name!"); // give them another chance
+    }
+    console.log(usersName); // print their response to console.
+    document.write("Hi " + usersName + " welcome to my page!"); // write message to page
+    return usersName;      // return usersName from function - must be last step!
+  }
