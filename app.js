@@ -22,12 +22,9 @@ function guessANumber() {
     }
 }
 
-function greetUser() {
-    usersName = prompt("What is your name?"); // reassing value of global function
-    if (usersName == ""){                     // check if user didn't type anything
-      usersName = prompt("Please enter your name!"); // give them another chance
-    }
-    console.log(usersName); // print their response to console.
-    document.write("Hi " + usersName + " welcome to my page!"); // write message to page
-    return usersName;      // return usersName from function - must be last step!
-  }
+let rating = prompt("How would you rate my page? 1-5");
+for (let i = 0; (i<rating && i<5); i++){
+   console.log(i);
+   document.write("<img style= 'width: 50px;' src= 'https://cdn.shopify.com/s/files/1/0306/6419/6141/products/soccer_1000x.jpg' alt= 'soccer ball picture'/>");
+   
+}
